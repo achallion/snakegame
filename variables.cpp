@@ -1,3 +1,4 @@
-int boardrow , boardcol;
-int foodrow , foodcol;
-int snakerow , snakecol;
+int boardrow , boardcol;  //akshay write comments
+int foodrow , foodcol;  //
+int snakerow , snakecol;  //
+char ch;  // Takes input
