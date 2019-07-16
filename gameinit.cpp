@@ -6,4 +6,6 @@ void init() // Initializes the variables
     foodcol = boardcol / 2;
     snakerow.push_back(boardrow / 4);
     snakecol.push_back(boardcol / 4);
+    snakeendcol = snakecol[0];
+    snakeendrow = snakerow[0];
 }

@@ -27,13 +27,16 @@ int main()
         // if wrong ask user for retry or exit
     } while (!userauth());
     */
-    init(); // Initialize all variables
-    while (true)
+    while (true) // If 'n' is pressed , new game is initialized
     {
-        graphics(); // Set the drawing
-        input();    // Takes input from user
-        process();  // Set The Variables
-        break;
+        init(); // Initialize all variables
+        while (ch != 'n')
+        {
+            clrscr(os);
+            graphics(); // Set the drawing
+            input();    // Takes input from user
+            process();  // Set The Variables
+        }
     }
     return 0;
 }
